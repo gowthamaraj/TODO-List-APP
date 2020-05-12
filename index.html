@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO APP</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container text-center todo-container text-white">
+      <header class="my-5">
+        <h1>Little TODO List</h1>
+      </header>
+      <form class="search-todo">
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            name="search"
+            placeholder="Search"
+          />
+        </div>
+      </form>
+
+      <ul class="list-group my-4 py-2 lists">
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <span>Buy Milk</span
+          ><i class="fa fa-trash delete" aria-hidden="true"></i>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <span>Make Salad</span
+          ><i class="fa fa-trash delete" aria-hidden="true"></i>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <span>Take a Bath</span
+          ><i class="fa fa-trash delete" aria-hidden="true"></i>
+        </li>
+      </ul>
+
+      <form class="my-5 add-todo">
+        <div class="form-group my-1">
+          <input
+            type="text"
+            class="form-control"
+            name="add"
+            placeholder="ADD"
+          />
+        </div>
+      </form>
+    </div>
+
+    <script src="./script/app.js"></script>
+  </body>
+</html>

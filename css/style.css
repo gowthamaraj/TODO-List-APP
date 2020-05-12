@@ -1,0 +1,19 @@
+body{
+    background-color: #6C3498;
+}
+.todo-container{
+    max-width: 500px;
+}
+.lists li{
+    background-color: #391B50;
+}
+.lists i{
+    color: aliceblue;
+}
+input[type=text],input[type=text]:focus{
+    background: rgba(0, 0, 0, 0.2);
+    color: azure;
+}
+.filter{
+    display: None !important;
+}
